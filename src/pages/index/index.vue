@@ -1,15 +1,17 @@
 <template>
-  <div class="header">header</div>
+  <index-head></index-head>
 </template>
 
 <script>
+import IndexHead from './head'
 export default {
-  name: 'index'
+  name: 'index',
+  components: {
+    IndexHead
+  }
 }
 </script>
 
-<style scoped>
-.header {
-  background: red;
-}
+<style>
+
 </style>
