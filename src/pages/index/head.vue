@@ -52,6 +52,4 @@ export default {
 			border-left: .14rem solid transparent
 			border-right: .14rem solid transparent
 			border-top: .14rem solid #fff
-			
-		
 </style>
